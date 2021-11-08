@@ -1,9 +1,10 @@
 {
     "races": {
-        "count": 0,
+        "count": 1,
         "list": [
             {
                 "name": "Dwarf",
+                "index": "dwarf",
                 "speed": 25,
                 "ability_bonuses": [
                     {
@@ -11,20 +12,13 @@
                         "ability_score": "CON"
                     }
                 ],
-                "alignments": [
-                    {
-                        "leans_toward": true,
-                        "alignment": {
-                            "name": "Lawful"
-                        }
-                    },
-                    {
-                        "leans_toward": true,
-                        "alignment": {
-                            "name": "Good"
-                        }
-                    }
-                ],
+                "alignment_leaning": {
+                    "lawful": true,
+                    "evil": false,
+                    "good": true,
+                    "chaotic": false,
+                    "neutral": false
+                },
                 "age": {
                     "maturity": 50,
                     "lifespan": 350
@@ -35,54 +29,53 @@
                     "height_tall": 60,
                     "weight": 150
                 },
-                "starting_proficiencies": [
-                    "Handaxes",
-                    "Battleaxes",
-                    "Light Hammers",
-                    "Warhammers"
-                ],
-                "starting_proficiency_choices": {
-                    "choose": 1,
-                    "from": [
-                        "Smith's Tools",
-                        "Brewer's Supplies",
-                        "Mason's Tools"
-                    ]
-                },
                 "languages": [
-                    "Common",
-                    "Dwarvish"
+                    {
+                        "index": "common",
+                        "name": "Common"
+                    },
+                    {
+                        "index": "dwarvish",
+                        "name": "Dwarvish"
+                    }
                 ],
                 "traits": [
-                    "Darkvision",
-                    "Dwarven Resilience",
-                    "Stonecunning",
-                    "Dwarven Combat Training"
+                    "Darkvision 60 ft."
                 ],
+                "skills": [],
+                "names": {
+                    "male": ["Adrik", "Alberich", "Baern", "Barendd", "Brottor", "Bruenor", "Dain", "Darrak", "Delg", "Eberk", "Einkil", "Fargrim", "Flint", "Gardian", "Harbek", "Kildrak", "Morgran", "Orsik", "Oskar", "Rangrim", "Rurik", "Taklinn", "Thoradin", "Thorin", "Tordek", "Traubon", "Travok", "Ulfgar", "Veit", "Vondal"],
+                    "female": ["Amber", "Artin", "Audhild", "Bardryn", "Dagnal", "Diesa", "Eldeth", "Falkrunn", "Finellen", "Gunnloda", "Gurdis", "Helja", "Hlin", "Kathra", "Kristryd", "Ilde", "Liftrasa", "Mardred", "Riswynn", "Sannl", "Torbera", "Torgga", "Vistra"],
+                    "last": ["Balderk", "Battlehammer", "Brawnanvil", "Dankil", "Fireforge", "Frostbeard", "Gorunn", "Holderhek", "Ironfist", "Loderr", "Lutgehr", "Rumnaheim", "Strakeln", "Torunn", "Ungart"] 
+                },
                 "subraces": [
                     {
                         "name": "Hill Dwarf",
+                        "index": "hill-dwarf",
                         "ability_bonuses": [
                             {
                                 "bonus": 1,
                                 "ability_score": "WIS"
                             }
                         ],
-                        "starting_proficiencies": [],
-                        "languages": [],
-                        "racial_traits": [
+                        "languages": []
+                    },
+                    {
+                        "name": "Mountain Dwarf",
+                        "index": "mountain-dwarf",
+                        "ability_bonuses": [
                             {
-                                "name": "Dwarven Toughness",
-                                "index": "dwarven-toughness"
+                                "bonus": 2,
+                                "ability_score": "STR"
                             }
-                        ]
+                        ],
+                        "languages": []
                     }
                 ]
-
             }
         ]
     },
-    "trait_definitions": {
-        "darkvision"
+    "description": {
+        
     }
 }
