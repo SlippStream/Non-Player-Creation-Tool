@@ -12,13 +12,10 @@
                         "ability_score": "CON"
                     }
                 ],
-                "alignment_leaning": {
-                    "lawful": true,
-                    "evil": false,
-                    "good": true,
-                    "chaotic": false,
-                    "neutral": false
-                },
+                "alignment_leaning": [
+                    "lawful",
+                    "good"
+                ],
                 "age": {
                     "maturity": 50,
                     "lifespan": 350
@@ -40,10 +37,14 @@
                     }
                 ],
                 "traits": [
-                    "Darkvision 60 ft."
+                    {
+                        "name": "Darkvision 60 ft.",
+                        "index": "darkvision"
+                    }
                 ],
                 "skills": [],
                 "names": {
+                    "child": null,
                     "male": ["Adrik", "Alberich", "Baern", "Barendd", "Brottor", "Bruenor", "Dain", "Darrak", "Delg", "Eberk", "Einkil", "Fargrim", "Flint", "Gardian", "Harbek", "Kildrak", "Morgran", "Orsik", "Oskar", "Rangrim", "Rurik", "Taklinn", "Thoradin", "Thorin", "Tordek", "Traubon", "Travok", "Ulfgar", "Veit", "Vondal"],
                     "female": ["Amber", "Artin", "Audhild", "Bardryn", "Dagnal", "Diesa", "Eldeth", "Falkrunn", "Finellen", "Gunnloda", "Gurdis", "Helja", "Hlin", "Kathra", "Kristryd", "Ilde", "Liftrasa", "Mardred", "Riswynn", "Sannl", "Torbera", "Torgga", "Vistra"],
                     "last": ["Balderk", "Battlehammer", "Brawnanvil", "Dankil", "Fireforge", "Frostbeard", "Gorunn", "Holderhek", "Ironfist", "Loderr", "Lutgehr", "Rumnaheim", "Strakeln", "Torunn", "Ungart"] 
@@ -58,7 +59,10 @@
                                 "ability_score": "WIS"
                             }
                         ],
-                        "languages": []
+                        "languages": [],
+                        "traits": [],
+                        "alignment-leaning": [],
+                        "speed": 25
                     },
                     {
                         "name": "Mountain Dwarf",
@@ -69,7 +73,116 @@
                                 "ability_score": "STR"
                             }
                         ],
-                        "languages": []
+                        "languages": [],
+                        "traits": [],
+                        "alignment-leaning": [],
+                        "speed": 25
+                    }
+                ]
+            },
+            {
+                "name": "Elf",
+                "index": "elf",
+                "speed": 30,
+                "ability_bonuses": [
+                    {
+                        "bonus": 2,
+                        "ability_score": "DEX"
+                    }
+                ],
+                "alignment_leaning": [
+                    "chaotic",
+                    "good"
+                ],
+                "age": {
+                    "maturity": 100,
+                    "lifespan": 750
+                },
+                "size": {
+                    "size_class": "medium",
+                    "height_short": 58,
+                    "height_tall": 74,
+                    "weight": 120
+                },
+                "languages": [
+                    {
+                        "index": "common",
+                        "name": "Common"
+                    },
+                    {
+                        "index": "elvish",
+                        "name": "Elvish"
+                    }
+                ],
+                "traits": [
+                    {
+                        "name": "Darkvision 60 ft.",
+                        "index": "darkvision"
+                    }
+                ],
+                "skills": [
+                    "Perception +2"
+                ],
+                "names": {
+                    "child": ["Ara", "Bryn", "Del", "Eryn", "Faen", "Innil", "Lael", "Mella", "Naill", "Naeris", "Phann", "Rael", "Rinn", "Sai", "Syllin", "Thia", "Vall"],
+                    "male": ["Adran", "Aelar", "Aramil", "Arannis", "Beiro", "Berrian", "Carric", "Enialis", "Erdan", "Erevan", "Galinndan", "Hadarai", "Heian", "Himo", "Immeral", "Ivellios", "Laucian", "Mindartis", "Paelias", "Peren", "Quarion", "Riardon", "Rolen", "Soveliss", "Thamior", "Tharivol", "Theren", "Varis"],
+                    "female": ["Adrie", "Althaea", "Anastrianna", "Andraste", "Antinua", "Bethrynna", "Birel", "Caelynn", "Drusilia", "Enna", "Felosial", "Ielenia", "Jelenneth", "Keyleth", "Leshanna", "Lia", "Meriele", "Mialee", "Naivara", "Quelenna", "Quillathe", "Sariel", "Shanairra", "Shava", "Silaqui", "Theirastra", "Thia", "Vadania", "Valanthe", "Xanaphia"],
+                    "last": ["Amakiir", "Amastacia", "Galanodel", "Holimion", "Ilphelkiir", "Liadon", "Meliamne", "Naïlo", "Siannodel", "Xiloscient"] 
+                },
+                "subraces": [
+                    {
+                        "name": "High Elf",
+                        "index": "high-elf",
+                        "ability_bonuses": [
+                            {
+                                "bonus": 1,
+                                "ability_score": "INT"
+                            }
+                        ],
+                        "languages": [],
+                        "traits": [],
+                        "alignment-leaning": [],
+                        "speed": 30
+                    },
+                    {
+                        "name": "Wood Elf",
+                        "index": "wood-elf",
+                        "ability_bonuses": [
+                            {
+                                "bonus": 1,
+                                "ability_score": "WIS"
+                            }
+                        ],
+                        "languages": [
+                            {
+                                "name": "Choose One",
+                                "index": "any"
+                            }
+                        ],
+                        "traits": [],
+                        "alignment-leaning": [],
+                        "speed": 35
+                    },
+                    {
+                        "name": "Drow",
+                        "index": "dark-elf",
+                        "ability_bonuses": [
+                            {
+                                "bonus": 1,
+                                "ability_score": "CHA"
+                            }
+                        ],
+                        "languages": [],
+                        "traits": [
+                            {
+                                "name": "Darkvision 120 ft.",
+                                "index": "darkvision"
+                            }
+                        ],
+                        "alignment-leaning": [
+                            "evil"
+                        ],
+                        "speed": 30
                     }
                 ]
             }
