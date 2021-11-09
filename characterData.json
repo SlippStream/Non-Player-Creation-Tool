@@ -188,6 +188,48 @@
             }
         ]
     },
+    "jobs": {
+        "generic_appearance_descriptions": [
+            {
+                "index": "regal",
+                "text": "[[Name]] is dressed in regal whites and golds. [[Their]] fingers are adorned with rings socketed with exotic gems."
+            },
+            {
+                "index": "dirty",
+                "text": "[[Name]]'s face is crusted with dirt and grime. [[Their]] heavy canvas clothes are worn and beginning to fray."
+            },
+            {
+                "index": "woodsy",
+                "text": "[[Name]] is clad in a lightweight leather vest and a faded evergreen shirt. [[Their]]"
+            }
+        ],
+        "list": [
+            {
+                "name": "Merchant",
+                "index": "merchant",
+                "job_specification": {
+                    "child_allowed": false
+                },
+                "specialists": [
+                    {
+                        "name": "Pelt Merchant",
+                        "index": "pelt_merchant",
+                        "job_specification": [],
+                        "valid_descriptions": {
+                            "specific": [
+                                {
+                                    "index": "pelt_merchant_appearance_0",
+                                    "text": "[[Name]] wears of a coat of exotic furs. The many coin-purses strapped to it jingle as [[They]] walk."
+
+                                }
+                            ],
+                            "general": []
+                        }
+                    }
+                ]
+            }
+        ]
+    },
     "description": {
         
     }
