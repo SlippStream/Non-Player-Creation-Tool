@@ -44,7 +44,6 @@
                 ],
                 "skills": [],
                 "names": {
-                    "child": null,
                     "male": ["Adrik", "Alberich", "Baern", "Barendd", "Brottor", "Bruenor", "Dain", "Darrak", "Delg", "Eberk", "Einkil", "Fargrim", "Flint", "Gardian", "Harbek", "Kildrak", "Morgran", "Orsik", "Oskar", "Rangrim", "Rurik", "Taklinn", "Thoradin", "Thorin", "Tordek", "Traubon", "Travok", "Ulfgar", "Veit", "Vondal"],
                     "female": ["Amber", "Artin", "Audhild", "Bardryn", "Dagnal", "Diesa", "Eldeth", "Falkrunn", "Finellen", "Gunnloda", "Gurdis", "Helja", "Hlin", "Kathra", "Kristryd", "Ilde", "Liftrasa", "Mardred", "Riswynn", "Sannl", "Torbera", "Torgga", "Vistra"],
                     "last": ["Balderk", "Battlehammer", "Brawnanvil", "Dankil", "Fireforge", "Frostbeard", "Gorunn", "Holderhek", "Ironfist", "Loderr", "Lutgehr", "Rumnaheim", "Strakeln", "Torunn", "Ungart"] 
@@ -58,11 +57,7 @@
                                 "bonus": 1,
                                 "ability_score": "WIS"
                             }
-                        ],
-                        "languages": [],
-                        "traits": [],
-                        "alignment-leaning": [],
-                        "speed": 25
+                        ]
                     },
                     {
                         "name": "Mountain Dwarf",
@@ -72,11 +67,7 @@
                                 "bonus": 2,
                                 "ability_score": "STR"
                             }
-                        ],
-                        "languages": [],
-                        "traits": [],
-                        "alignment-leaning": [],
-                        "speed": 25
+                        ]
                     }
                 ]
             },
@@ -138,11 +129,7 @@
                                 "bonus": 1,
                                 "ability_score": "INT"
                             }
-                        ],
-                        "languages": [],
-                        "traits": [],
-                        "alignment-leaning": [],
-                        "speed": 30
+                        ]
                     },
                     {
                         "name": "Wood Elf",
@@ -159,8 +146,6 @@
                                 "index": "any"
                             }
                         ],
-                        "traits": [],
-                        "alignment-leaning": [],
                         "speed": 35
                     },
                     {
@@ -172,7 +157,6 @@
                                 "ability_score": "CHA"
                             }
                         ],
-                        "languages": [],
                         "traits": [
                             {
                                 "name": "Darkvision 120 ft.",
@@ -181,8 +165,7 @@
                         ],
                         "alignment-leaning": [
                             "evil"
-                        ],
-                        "speed": 30
+                        ]
                     }
                 ]
             }
@@ -192,3 +175,18 @@
         
     }
 }
+
+                    {
+                        "name": "Subrace Name",
+                        "index": "subrace-name",
+                        "ability_bonuses": [
+                            {
+                                "bonus": 2,
+                                "ability_score": "STR"
+                            }
+                        ],
+                        "languages": [],
+                        "traits": [],
+                        "alignment-leaning": [],
+                        "speed": 25
+                    }
