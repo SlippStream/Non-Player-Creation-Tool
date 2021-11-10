@@ -1,6 +1,6 @@
 {
     "races": {
-        "count": 1,
+        "count": 2,
         "list": [
             {
                 "name": "Dwarf",
@@ -174,16 +174,52 @@
     "jobs": {
         "generic_appearance_descriptions": [
             {
-                "index": "regal",
+                "index": "regal_golds",
                 "text": "[[Name]] is dressed in regal whites and golds. [[Their]] fingers are adorned with rings socketed with exotic gems."
             },
             {
-                "index": "dirty",
+                "index": "dirty_grime",
                 "text": "[[Name]]'s face is crusted with dirt and grime. [[Their]] heavy canvas clothes are worn and beginning to fray."
             },
             {
-                "index": "woodsy",
-                "text": "[[Name]] is clad in a lightweight leather vest and a faded evergreen shirt. [[Their]]"
+                "index": "evergreen_shirt",
+                "text": "[[Name]] is clad in a lightweight leather vest and a faded evergreen shirt. Many pocket-belts hang across [[their]] torso and around [[their]] waist."
+            },
+            {
+                "index": "red_bandana",
+                "text": "[[Name]] wears a deep red bandana across their nose and mouth. [[Their]] clothes are worn and darkened, but clean.",
+                "obscured": [
+                    "nose",
+                    "mouth"
+                ]
+            },
+            {
+                "index": "regal_furs",
+                "text": "[[Name]] wears of a coat of exotic furs and leathers. The many coin-purses strapped to it jingle as [[they]] walk."
+            },
+            {
+                "index": "shirtless_axe",
+                "text": "[[Name]] carries [[themself]] shirtless, save for a few scraps of cloth on [[their]] chest. [[They]] wear only leather pants and a steel greataxe strapped across [[their]] torso"
+            },
+            {
+                "index": "frog_friend",
+                "text": "[[Name]] wears a coat of deep purple, accompanied by a live frog perched upon [[their]] shoulder. The frog croaks loudly, but seems not to otherwise move"
+            },
+            {
+                "index": "elite_archer",
+                "text": "[[Name]] wears a fine coat of dark leather, adorned with shining pins and trinkets. At [[their]] side [[they]] carry a lustrous bow, rich with ornate carvings."
+            },
+            {
+                "index": "blue_robes",
+                "text": "[[Name]] wears a long, flowing robe of rich blues and golds. Around [[their]] neck hangs many amulets and necklaces socketed with faintly glowing gems."
+            },
+            {
+                "index": "tavern_musician",
+                "text": "[[Name]] wears simple leather clothes and a small, torn hat. [[They]] carry with them a lute carved from some exotic wood and adorned with ornately-carved metal."
+            },
+            {
+                "index": "stained_apron",
+                "text": "[[Name]] wears simple clothes, covered by a large white apron stained with unknown colors. "
             }
         ],
         "list": [
@@ -198,16 +234,99 @@
                         "name": "Pelt Merchant",
                         "index": "pelt_merchant",
                         "job_specification": [],
-                        "valid_descriptions": {
-                            "specific": [
-                                {
-                                    "index": "pelt_merchant_appearance_0",
-                                    "text": "[[Name]] wears of a coat of exotic furs. The many coin-purses strapped to it jingle as [[They]] walk."
-
-                                }
-                            ],
-                            "general": []
-                        }
+                        "valid_appearance_description_indeces": [
+                                "red_bandana",
+                                "regal_furs"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Adventurer",
+                "index": "Adventurer",
+                "job_specification": {
+                    "child_allowed": false
+                },
+                "specialists": [
+                    {
+                        "name": "Barbarian",
+                        "index": "barbarian",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "shirtless_axe"
+                        ]
+                    },
+                    {
+                        "name": "Fighter",
+                        "index": "fighter",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "shirtless_axe"
+                        ]
+                    },
+                    {
+                        "name": "Bard",
+                        "index": "bard",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "tavern_musician"
+                        ]
+                    },
+                    {
+                        "name": "Monk",
+                        "index": "monk",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "red_bandana"
+                        ]
+                    },
+                    {
+                        "name": "Wizard",
+                        "index": "wizard",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "blue_robes"
+                        ]
+                    },
+                    {
+                        "name": "Warlock",
+                        "index": "warlock",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "frog_friend"
+                        ]
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "index": "sorcerer",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "red_bandana"
+                        ]
+                    },
+                    {
+                        "name": "Paladin",
+                        "index": "paladin",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                           
+                        ]
+                    },
+                    {
+                        "name": "Cleric",
+                        "index": "cleric",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "Ranger",
+                        "index": "ranger",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "elite_archer"
+                        ]
                     }
                 ]
             }
@@ -218,17 +337,3 @@
     }
 }
 
-                    {
-                        "name": "Subrace Name",
-                        "index": "subrace-name",
-                        "ability_bonuses": [
-                            {
-                                "bonus": 2,
-                                "ability_score": "STR"
-                            }
-                        ],
-                        "languages": [],
-                        "traits": [],
-                        "alignment-leaning": [],
-                        "speed": 25
-                    }
