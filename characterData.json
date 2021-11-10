@@ -44,9 +44,80 @@
                 ],
                 "skills": [],
                 "names": {
-                    "male": ["Adrik", "Alberich", "Baern", "Barendd", "Brottor", "Bruenor", "Dain", "Darrak", "Delg", "Eberk", "Einkil", "Fargrim", "Flint", "Gardian", "Harbek", "Kildrak", "Morgran", "Orsik", "Oskar", "Rangrim", "Rurik", "Taklinn", "Thoradin", "Thorin", "Tordek", "Traubon", "Travok", "Ulfgar", "Veit", "Vondal"],
-                    "female": ["Amber", "Artin", "Audhild", "Bardryn", "Dagnal", "Diesa", "Eldeth", "Falkrunn", "Finellen", "Gunnloda", "Gurdis", "Helja", "Hlin", "Kathra", "Kristryd", "Ilde", "Liftrasa", "Mardred", "Riswynn", "Sannl", "Torbera", "Torgga", "Vistra"],
-                    "last": ["Balderk", "Battlehammer", "Brawnanvil", "Dankil", "Fireforge", "Frostbeard", "Gorunn", "Holderhek", "Ironfist", "Loderr", "Lutgehr", "Rumnaheim", "Strakeln", "Torunn", "Ungart"] 
+                    "male": [
+                        "Adrik",
+                        "Alberich",
+                        "Baern",
+                        "Barendd",
+                        "Brottor",
+                        "Bruenor",
+                        "Dain",
+                        "Darrak",
+                        "Delg",
+                        "Eberk",
+                        "Einkil",
+                        "Fargrim",
+                        "Flint",
+                        "Gardian",
+                        "Harbek",
+                        "Kildrak",
+                        "Morgran",
+                        "Orsik",
+                        "Oskar",
+                        "Rangrim",
+                        "Rurik",
+                        "Taklinn",
+                        "Thoradin",
+                        "Thorin",
+                        "Tordek",
+                        "Traubon",
+                        "Travok",
+                        "Ulfgar",
+                        "Veit",
+                        "Vondal"
+                    ],
+                    "female": [
+                        "Amber",
+                        "Artin",
+                        "Audhild",
+                        "Bardryn",
+                        "Dagnal",
+                        "Diesa",
+                        "Eldeth",
+                        "Falkrunn",
+                        "Finellen",
+                        "Gunnloda",
+                        "Gurdis",
+                        "Helja",
+                        "Hlin",
+                        "Kathra",
+                        "Kristryd",
+                        "Ilde",
+                        "Liftrasa",
+                        "Mardred",
+                        "Riswynn",
+                        "Sannl",
+                        "Torbera",
+                        "Torgga",
+                        "Vistra"
+                    ],
+                    "last": [
+                        "Balderk",
+                        "Battlehammer",
+                        "Brawnanvil",
+                        "Dankil",
+                        "Fireforge",
+                        "Frostbeard",
+                        "Gorunn",
+                        "Holderhek",
+                        "Ironfist",
+                        "Loderr",
+                        "Lutgehr",
+                        "Rumnaheim",
+                        "Strakeln",
+                        "Torunn",
+                        "Ungart"
+                    ]
                 },
                 "subraces": [
                     {
@@ -115,10 +186,99 @@
                     "Perception +2"
                 ],
                 "names": {
-                    "child": ["Ara", "Bryn", "Del", "Eryn", "Faen", "Innil", "Lael", "Mella", "Naill", "Naeris", "Phann", "Rael", "Rinn", "Sai", "Syllin", "Thia", "Vall"],
-                    "male": ["Adran", "Aelar", "Aramil", "Arannis", "Beiro", "Berrian", "Carric", "Enialis", "Erdan", "Erevan", "Galinndan", "Hadarai", "Heian", "Himo", "Immeral", "Ivellios", "Laucian", "Mindartis", "Paelias", "Peren", "Quarion", "Riardon", "Rolen", "Soveliss", "Thamior", "Tharivol", "Theren", "Varis"],
-                    "female": ["Adrie", "Althaea", "Anastrianna", "Andraste", "Antinua", "Bethrynna", "Birel", "Caelynn", "Drusilia", "Enna", "Felosial", "Ielenia", "Jelenneth", "Keyleth", "Leshanna", "Lia", "Meriele", "Mialee", "Naivara", "Quelenna", "Quillathe", "Sariel", "Shanairra", "Shava", "Silaqui", "Theirastra", "Thia", "Vadania", "Valanthe", "Xanaphia"],
-                    "last": ["Amakiir", "Amastacia", "Galanodel", "Holimion", "Ilphelkiir", "Liadon", "Meliamne", "Naïlo", "Siannodel", "Xiloscient"] 
+                    "child": [
+                        "Ara",
+                        "Bryn",
+                        "Del",
+                        "Eryn",
+                        "Faen",
+                        "Innil",
+                        "Lael",
+                        "Mella",
+                        "Naill",
+                        "Naeris",
+                        "Phann",
+                        "Rael",
+                        "Rinn",
+                        "Sai",
+                        "Syllin",
+                        "Thia",
+                        "Vall"
+                    ],
+                    "male": [
+                        "Adran",
+                        "Aelar",
+                        "Aramil",
+                        "Arannis",
+                        "Beiro",
+                        "Berrian",
+                        "Carric",
+                        "Enialis",
+                        "Erdan",
+                        "Erevan",
+                        "Galinndan",
+                        "Hadarai",
+                        "Heian",
+                        "Himo",
+                        "Immeral",
+                        "Ivellios",
+                        "Laucian",
+                        "Mindartis",
+                        "Paelias",
+                        "Peren",
+                        "Quarion",
+                        "Riardon",
+                        "Rolen",
+                        "Soveliss",
+                        "Thamior",
+                        "Tharivol",
+                        "Theren",
+                        "Varis"
+                    ],
+                    "female": [
+                        "Adrie",
+                        "Althaea",
+                        "Anastrianna",
+                        "Andraste",
+                        "Antinua",
+                        "Bethrynna",
+                        "Birel",
+                        "Caelynn",
+                        "Drusilia",
+                        "Enna",
+                        "Felosial",
+                        "Ielenia",
+                        "Jelenneth",
+                        "Keyleth",
+                        "Leshanna",
+                        "Lia",
+                        "Meriele",
+                        "Mialee",
+                        "Naivara",
+                        "Quelenna",
+                        "Quillathe",
+                        "Sariel",
+                        "Shanairra",
+                        "Shava",
+                        "Silaqui",
+                        "Theirastra",
+                        "Thia",
+                        "Vadania",
+                        "Valanthe",
+                        "Xanaphia"
+                    ],
+                    "last": [
+                        "Amakiir",
+                        "Amastacia",
+                        "Galanodel",
+                        "Holimion",
+                        "Ilphelkiir",
+                        "Liadon",
+                        "Meliamne",
+                        "Naïlo",
+                        "Siannodel",
+                        "Xiloscient"
+                    ]
                 },
                 "subraces": [
                     {
@@ -235,8 +395,8 @@
                         "index": "pelt_merchant",
                         "job_specification": [],
                         "valid_appearance_description_indeces": [
-                                "red_bandana",
-                                "regal_furs"
+                            "red_bandana",
+                            "regal_furs"
                         ]
                     }
                 ]
@@ -308,17 +468,13 @@
                         "name": "Paladin",
                         "index": "paladin",
                         "job_specification": [],
-                        "valid_appearance_description_indeces": [
-                           
-                        ]
+                        "valid_appearance_description_indeces": []
                     },
                     {
                         "name": "Cleric",
                         "index": "cleric",
                         "job_specification": [],
-                        "valid_appearance_description_indeces": [
-                            
-                        ]
+                        "valid_appearance_description_indeces": []
                     },
                     {
                         "name": "Ranger",
@@ -332,8 +488,5 @@
             }
         ]
     },
-    "description": {
-        
-    }
+    "description": {}
 }
-
