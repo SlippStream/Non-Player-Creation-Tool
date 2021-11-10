@@ -338,7 +338,7 @@
                 "text": "[[Name]] is dressed in regal whites and golds. [[Their]] fingers are adorned with rings socketed with exotic gems."
             },
             {
-                "index": "dirty_grime",
+                "index": "dirty_worker",
                 "text": "[[Name]]'s face is crusted with dirt and grime. [[Their]] heavy canvas clothes are worn and beginning to fray."
             },
             {
@@ -379,7 +379,11 @@
             },
             {
                 "index": "stained_apron",
-                "text": "[[Name]] wears simple clothes, covered by a large white apron stained with unknown colors. "
+                "text": "[[Name]] wears simple clothes, covered by a large white apron stained with unknown colors."
+            },
+            {
+                "index": "shadowy_cloak",
+                "text": "[[Name]] wears lightweight, black clothing with a thin gray cloak at [[their]] back. [[Their]] face is hidden by the hood of [[their]] cloak."
             }
         ],
         "list": [
@@ -481,7 +485,25 @@
                         "index": "ranger",
                         "job_specification": [],
                         "valid_appearance_description_indeces": [
-                            "elite_archer"
+                            "elite_archer",
+                            "evergreen_shirt"
+                        ]
+                    },
+                    {
+                        "name": "Druid",
+                        "index": "druid",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "red_bandana",
+                            "evergreen_shirt"    
+                        ]
+                    },
+                    {
+                        "name": "Rogue",
+                        "index": "rogue",
+                        "job_specification": [],
+                        "valid_appearance_description_indeces": [
+                            "shadowy_cloak"
                         ]
                     }
                 ]
